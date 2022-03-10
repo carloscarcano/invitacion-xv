@@ -1,12 +1,41 @@
+section {
+    padding: 20px 0px;
+    text-align: center;
+    border: solid 1px gray;
+}
+
+h1 {
+    color: brown;
+}
+
 #estas-invitado {
     background-color: pink;
 }
 
 #galeria {
-    background-color:cornflowerblue;
+    background-color: white;
 }
 
 #donde-cuando {
-    background-color: darkgoldenrod;
+    background-color: white;
 }
 
+#vestimenta {
+    text-align: center;
+}
+
+#mesa-regalos {
+    text-align: center;
+    background-color: white;
+}
+
+footer {
+    width:100%;
+    min-height: 500px;
+    background-image: url('../img/foto-fondo-footer.jpeg');
+    background-position: 50% 50%;
+    background-size: cover;
+
+    text-align: center;
+    color: white;
+}
