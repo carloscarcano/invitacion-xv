@@ -1,10 +1,11 @@
 section {
     padding: 20px 0px;
     text-align: center;
+    color: #FFBAD2;
 }
 
 h1 {
-    color: brown;
+    color: #E47297;
 }
 
 #estas-invitado {
@@ -25,10 +26,10 @@ h1 {
 }
 
 body {
-    background-image: url('../img/fondo-rosas.jpg');
     background-position: 50% 50%;
     background-repeat: repeat;
     background-size: cover;
+    background-color: white;
 }
 
 footer {
