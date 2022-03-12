@@ -1,7 +1,6 @@
 section {
     padding: 20px 0px;
     text-align: center;
-    border: solid 1px gray;
 }
 
 h1 {
@@ -9,15 +8,12 @@ h1 {
 }
 
 #estas-invitado {
-    background-color: pink;
 }
 
 #galeria {
-    background-color: white;
 }
 
 #donde-cuando {
-    background-color: white;
 }
 
 #vestimenta {
@@ -26,7 +22,13 @@ h1 {
 
 #mesa-regalos {
     text-align: center;
-    background-color: white;
+}
+
+body {
+    background-image: url('../img/fondo-rosas.jpg');
+    background-position: 50% 50%;
+    background-repeat: repeat;
+    background-size: cover;
 }
 
 footer {
