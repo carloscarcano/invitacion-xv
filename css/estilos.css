@@ -1,7 +1,10 @@
 body {
-    /**font-family:'Ink Free';**/
+    font-family:'Malgun Gothic';
 }
 
+h1 {
+    font-weight: bold;
+}
 section {
     padding: 14px 20px;
     text-align: center;
@@ -21,16 +24,20 @@ section {
 }
 
 #donde-cuando {
-    background-color: #f1cbd1;
-    color: #eb586e;
+    background-color: #ffdfe2;
+    /**color: #eb586e;**/
+}
+
+#familiares {
+    background-color: #fff0f5;
 }
 
 #vestimenta {
-    text-align: center;
+    background-color: white;
 }
 
 #mesa-regalos {
-    text-align: center;
+    background-color: #e6e6fa;
 }
 
 body {
