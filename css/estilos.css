@@ -20,7 +20,16 @@ section {
     color: orangered;
 }
 
+#mis-xv {
+    background-color: #fff0f0;
+    background-image: url('../img/galeria/mis-xv.jpeg');
+    background-position: 50% 50%;
+    background-size: cover;
+    min-height: 400px;
+}
+
 #galeria {
+    background-color: #ffe6f2;
 }
 
 #donde-cuando {
@@ -37,6 +46,7 @@ section {
 }
 
 #mesa-regalos {
+    text-align: center;
     background-color: #e6e6fa;
 }
 
