@@ -30,11 +30,19 @@ section {
 
 #galeria {
     background-color: #ffe6f2;
+    min-height: 400px;
+}
+
+#donde-cuando-pre {
+    background-color:  #ffdfe2;
+    background-image: url('../img/donde-cuando-pre.jpeg');
+    background-position: 50% 50%;
+    background-size: cover;
+    min-height: 400px;
 }
 
 #donde-cuando {
     background-color: #ffdfe2;
-    /**color: #eb586e;**/
 }
 
 #familiares {
@@ -66,4 +74,12 @@ footer {
 
     text-align: center;
     color: white;
+}
+
+#celebremos-juntos-pos {
+    background-color:  #ffdfe2;
+    background-image: url('../img/celebremos-juntos-pos.jpeg');
+    background-position: 50% 50%;
+    background-size: cover;
+    min-height: 400px;   
 }
