@@ -1,28 +1,49 @@
 body {
-    font-family:'Malgun Gothic';
+    /*font-family:'Malgun Gothic';*/
+    font-family: 'Gabriola';
+    font-size: 20pt;
+    font-weight: 100;
+
+    background-color: rgb(251, 195, 233);
+    background-position: 50% 50%;
+    background-repeat: repeat;
+    background-size: cover;
 }
 
 h1 {
     font-weight: bold;
 }
+
 section {
     padding: 14px 20px;
     text-align: center;
 }
 
 #estas-invitado {
-    background-color: #fff0f0;
     background-image: url('../img/galeria/principal.jpeg');
     background-position: 50% 50%;
     background-size: cover;
     min-height: 400px;
 
-    color: orangered;
+    font-family:'Impact';
+    color: rgb(255, 131, 216);
+}
+
+#estas-invitado h1 {
+    font-size: 45pt;
+}
+
+#estas-invitado h2 {
+    font-size: 35pt;
+}
+
+#estas-invitado h3 {
+    font-size: 25pt;
 }
 
 #mis-xv {
     background-color: #fff0f0;
-    background-image: url('../img/galeria/mis-xv.jpeg');
+    background-image: url('../img/mis-xv.jpeg');
     background-position: 50% 50%;
     background-size: cover;
     min-height: 400px;
@@ -58,28 +79,14 @@ section {
     background-color: #e6e6fa;
 }
 
-body {
-    background-position: 50% 50%;
-    background-repeat: repeat;
-    background-size: cover;
-    background-color: white;
-}
-
-footer {
-    width:100%;
-    min-height: 500px;
-    background-image: url('../img/galeria/fondo-footer.jpeg');
+#no-faltes-pre {
+    background-image: url('../img/galeria/no-faltes-pre.jpeg');
     background-position: 50% 50%;
     background-size: cover;
-
-    text-align: center;
-    color: white;
 }
 
-#celebremos-juntos-pos {
-    background-color:  #ffdfe2;
+#no-faltes {
     background-image: url('../img/celebremos-juntos-pos.jpeg');
     background-position: 50% 50%;
     background-size: cover;
-    min-height: 400px;   
 }
