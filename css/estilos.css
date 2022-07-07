@@ -1,3 +1,8 @@
+@font-face{
+    font-family:Great Vibes;
+    src: url(../lib/FrederickatheGreat-Regular.ttf);
+}
+
 body {
     /*font-family:'Malgun Gothic';*/
     font-family: 'Gabriola';
@@ -25,16 +30,17 @@ section {
     background-size: cover;
     min-height: 400px;
 
-    font-family:'Impact';
-    color: rgb(255, 131, 216);
+    font-family:Great Vibes;
+    color: rgb(247, 157, 172);
 }
 
 #estas-invitado h1 {
-    font-size: 45pt;
+    font-weight: normal;
+    font-size: 40pt;
 }
 
 #estas-invitado h2 {
-    font-size: 35pt;
+    font-size: 34pt;
 }
 
 #estas-invitado h3 {
