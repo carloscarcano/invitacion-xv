@@ -31,7 +31,7 @@ section {
     min-height: 400px;
 
     font-family:Great Vibes;
-    color: rgb(247, 157, 172);
+    color: black;
 }
 
 #estas-invitado h1 {
@@ -45,6 +45,22 @@ section {
 
 #estas-invitado h3 {
     font-size: 25pt;
+}
+
+#datos-invitado h1 {
+    font-size: 40pt;
+}
+
+#datos-invitado {
+    background-color: rgb(252, 223, 243);
+}
+
+#foto-inter {
+    background-image: url('../img/galeria/foto-inter.jpeg');
+    background-position: 50% 50%;
+    background-size: cover;
+    min-height: 400px;
+
 }
 
 #mis-xv {
