@@ -3,6 +3,11 @@
     src: url(../lib/FrederickatheGreat-Regular.ttf);
 }
 
+@font-face{
+    font-family:Great Vibes;
+    src: url(../lib/Gabriola.ttf);
+}
+
 body {
     /*font-family:'Malgun Gothic';*/
     font-family: 'Gabriola';
