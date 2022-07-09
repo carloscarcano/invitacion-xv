@@ -4,7 +4,7 @@
 }
 
 @font-face{
-    font-family:Great Vibes;
+    font-family:Gabriola;
     src: url(../lib/Gabriola.ttf);
 }
 
@@ -35,7 +35,7 @@ section {
     background-size: cover;
     min-height: 400px;
 
-    font-family:Great Vibes;
+    font-family:'Great Vibes';
     color: black;
 }
 
