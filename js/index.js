@@ -109,7 +109,7 @@ function obtenerInvitado()
         case '48': nombre.html('Braulio Pacheco'); personas.html('2 Personas'); break;
         case '49': nombre.html('Braulio '); personas.html('Personal'); break;
         case '50': nombre.html('Sr. Antonio Abraham Hdez. y Fam.'); personas.html('3 Personas'); break;
-        case '51': nombre.html('Sr.Jose Alfredo y Fam.'); personas.html('4 Personas'); break;
+        case '51': nombre.html('Sr. Jose Alfredo Abraham y Fam.'); personas.html('4 Personas'); break;
         case '52': nombre.html('Petra Hernández Cruz'); personas.html('Personal'); break;
         case '53': nombre.html('Alfredo J. Abraham G.'); personas.html('2 Personas'); break;
         case '54': nombre.html('Juan Carlos Abraham Hernández'); personas.html('Personal'); break;
