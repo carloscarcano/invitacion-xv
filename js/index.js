@@ -111,7 +111,7 @@ function obtenerInvitado()
         case '50': nombre.html('Sr. Antonio Abraham Hdez. y Fam.'); personas.html('3 Personas'); break;
         case '51': nombre.html('Sr. Jose Alfredo Abraham y Fam.'); personas.html('4 Personas'); break;
         case '52': nombre.html('Petra Hernández Cruz'); personas.html('Personal'); break;
-        case '53': nombre.html('Alfredo J. Abraham G.'); personas.html('2 Personas'); break;
+        case '53': nombre.html('Abuelitos Coco y Tato'); personas.html('2 Personas'); break;
         case '54': nombre.html('Juan Carlos Abraham Hernández'); personas.html('Personal'); break;
         case '55': nombre.html('Angie Miranda Cabrera Abraham'); personas.html('4 Personas'); break;
         case '56': nombre.html('Ana María Frias Zapata'); personas.html('Personal'); break;
