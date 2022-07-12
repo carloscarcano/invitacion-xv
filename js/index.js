@@ -124,8 +124,11 @@ function obtenerInvitado()
         case '63': nombre.html('Fam. Rodríguez Zilli'); personas.html('3 Personas'); break;
         case '64': nombre.html('Isela Carrion Vasquez'); personas.html('3 Personas'); break;
         case '65': nombre.html('Lisbeth Arely Morales Carrion'); personas.html('4 Personas'); break;
-        case '66': nombre.html('Gabriel Lozano Rios '); personas.html('2 Personas'); break;
-        case '67': nombre.html('Aldo Rafael Perez y Fam.'); personas.html('5 Personas'); break;        
+        case '66': nombre.html('Gabriel Lozano y María de los Angeles'); personas.html('2 Personas'); break;
+        case '67': nombre.html('Aldo Rafael Perez y Fam.'); personas.html('5 Personas'); break;
+        case '68': 
+            nombre.html('Papá'); personas.html('Personal'); 
+            break;
         default:
             $('#datos-invitado').hide();
             break;
