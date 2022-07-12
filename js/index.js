@@ -1,4 +1,10 @@
 $(document).ready(function() {
+    cuentaRegresiva();
+    obtenerInvitado();
+});
+
+function cuentaRegresiva()
+{
     const DATE_TARGET = new Date('08/27/2022 0:01 AM'); // mm/dd/aaaa
 
     const SPAN_DAYS = $('#days');
@@ -29,4 +35,34 @@ $(document).ready(function() {
 
     updateCountdown();
     setInterval(updateCountdown, MILLISECONDS_OF_A_SECOND);
-});
+}
+
+function obtenerInvitado()
+{
+    const queryString = window.location.search;
+    const params = new URLSearchParams(queryString);
+    var invitado = '';
+    var nombre = $('#nombre-invitado');
+    var personas = $('#numero-personas');
+
+    if (!params.has('n'))
+    {
+        console.log('invitado no especificado');
+        $('#datos-invitado').hide();
+        return false;
+    } 
+    else 
+    {
+        $('#datos-invitado').show();
+        invitado = params.get('n');
+    }
+
+    switch(invitado) 
+    {
+        case '1': nombre.html('Homerito Cárdenas'); personas.html('Personal'); break;
+        case '2': nombre.html('Fam. Hernández Martínez'); personas.html('(4) Personas'); break;
+        default:
+            $('#datos-invitado').hide();
+            break;
+    }
+}
