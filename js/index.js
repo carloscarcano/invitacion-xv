@@ -127,10 +127,21 @@ function obtenerInvitado()
         case '66': nombre.html('Gabriel Lozano y María de los Angeles'); personas.html('2 Personas'); break;
         case '67': nombre.html('Aldo Rafael Perez y Fam.'); personas.html('5 Personas'); break;
         case '68': 
+            updateSource("mi-culebrita.mp3");
             nombre.html('Papá'); personas.html('Personal'); 
             break;
         default:
             $('#datos-invitado').hide();
             break;
     }
+}
+
+function updateSource(cancion)
+{
+    var audio = document.getElementById('musica-fondo');
+    var source = document.getElementById('musica-fondo-source');
+    source.src = cancion;
+  
+    audio.load(); //call this to just preload the audio without playing
+    audio.play(); //call this to play the song right away
 }
