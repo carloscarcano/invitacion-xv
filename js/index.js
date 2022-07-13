@@ -133,9 +133,9 @@ function obtenerInvitado()
         case '69': nombre.html('Luis Eduardo'); personas.html('Personal'); break;
         case '70': nombre.html('Luis Eduardo Alcazar'); personas.html('Personal'); break;
         case '71': nombre.html('Sr. Luis Felipe Acopa y Fam.'); personas.html('5 Personas'); break;
-        case '72': nombre.html('Tía Yeni'); personas.html('2 Personas'); break;
-        case '73': nombre.html('Tía Yoli'); personas.html('2 Personas'); break;
-        case '74': nombre.html('Tía Yari'); personas.html('2 Personas'); break;
+        case '72': nombre.html('Tía Yeni Cabrera'); personas.html('2 Personas'); break;
+        case '73': nombre.html('Tía Yoli Cernuda'); personas.html('2 Personas'); break;
+        case '74': nombre.html('Tía Yari Cabrera'); personas.html('2 Personas'); break;
         case '75': nombre.html('Sr. Jose Manuel Domínguez y Fam.'); personas.html('5 Personas'); break;
         case '76': nombre.html('Sr. David Oliva y Fam.'); personas.html('4 Personas'); break;
         case '77': nombre.html('Yaretzi'); personas.html('2 Personas'); break;
