@@ -140,7 +140,7 @@ function obtenerInvitado()
         case '76': nombre.html('Sr. David Oliva y Fam.'); personas.html('4 Personas'); break;
         case '77': nombre.html('Yaretzi'); personas.html('2 Personas'); break;
         case '78': nombre.html('Belgica Tejero'); personas.html('2 Personas'); break;
-        case '79': nombre.html('Maria Esther Alvarez'); personas.html('3 Personas'); break;
+        case '79': nombre.html('María Esther Álvarez'); personas.html('3 Personas'); break;
         case '80': nombre.html('Rosa Lidia y Jose Antonio'); personas.html('2 Personas'); break;
         case '81': nombre.html('Sr. Criel Abrego y Fam.'); personas.html('4 Personas'); break;
         case '82': nombre.html('Juan Carlos y Luisa Caridad'); personas.html('2 Personas'); break;
