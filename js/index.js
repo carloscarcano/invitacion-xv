@@ -154,7 +154,7 @@ function obtenerInvitado()
         case '90': nombre.html('Elda Frias Zapata'); personas.html('2 Personas'); break;
         case '91': nombre.html('Juan Frias Zapata'); personas.html('3 Personas'); break;
         case '92': nombre.html('Angel Vidal Custodio'); personas.html('2 Personas'); break;
-        case '93': nombre.html('Jorge Santos y Fam.'); personas.html('4 Personas'); break;
+        case '93': nombre.html('Jorge de los Santos y Fam.'); personas.html('4 Personas'); break;
         case '94': nombre.html('Jorge Alberto Campos Frias'); personas.html('Personal'); break;
         case '95': nombre.html('Daniel Trinidad González y Esposa'); personas.html('2 Personas'); break;
         case '96': nombre.html('Bruno Enrique Vila'); personas.html('2 Personas'); break;
@@ -164,6 +164,19 @@ function obtenerInvitado()
         case '100': nombre.html('Rodrigo de la Cruz y Fam.'); personas.html('4 Personas'); break;
         case '101': nombre.html('Jorge Cabrera y Fam.'); personas.html('4 Personas'); break;
         case '102': nombre.html('Rocio del Carmen Pedraza Magaña'); personas.html('2 Personas'); break;
+        case '103': nombre.html('Ximena Contreras'); personas.html('Personal'); break;
+        case '104': nombre.html('Iván'); personas.html('Personal'); break;
+        case '105': nombre.html('Alfredo Estrada Perez y Esposa'); personas.html('2 Personas'); break;
+        case '106': nombre.html('Columba Vidal Frias'); personas.html('2 Personas'); break;
+        case '107': nombre.html('Valeria'); personas.html('3 Personas'); break;
+        case '108': nombre.html('María José Vidal'); personas.html('2 Personas'); break;
+        case '109': nombre.html('Sr. Carlos Cabrera Guillermo y Esposa'); personas.html('2 Personas'); break;
+        case '110': nombre.html('Sr. Idelfonso Cabrera Guillermo y Esposa'); personas.html('2 Personas'); break;
+        case '111': nombre.html('Sra. Guadalupe Cabrera Guillermo'); personas.html('3 Personas'); break;
+        case '112': nombre.html('Valeria'); personas.html('2 Personas'); break;
+        case '113': nombre.html('Tía Javi Oliva'); personas.html('Personal'); break;
+        case '114': nombre.html('Sr. Martín Carbajal y Fam.'); personas.html('4 Personas'); break;
+        case '115': nombre.html('Cecilia F. Oliva Frias'); personas.html('2 Personas'); break;
         default:
             $('#datos-invitado').hide();
             break;
