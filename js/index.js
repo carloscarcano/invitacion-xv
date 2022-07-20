@@ -159,7 +159,7 @@ function obtenerInvitado()
         case '95': nombre.html('Daniel Trinidad González y Esposa'); personas.html('2 Personas'); break;
         case '96': nombre.html('Bruno Enrique Vila'); personas.html('2 Personas'); break;
         case '97': nombre.html('Daniel Gallardo'); personas.html('2 Personas'); break;
-        case '98': nombre.html('Ivette Perez'); personas.html('2 Personas'); break;
+        case '98': nombre.html('Ivette Pérez'); personas.html('2 Personas'); break;
         case '99': nombre.html('Sr. Emilio Armando Perez Marcin y Fam.'); personas.html('4 Personas'); break;
         case '100': nombre.html('Rodrigo de la Cruz y Fam.'); personas.html('4 Personas'); break;
         case '101': nombre.html('Jorge Cabrera y Fam.'); personas.html('4 Personas'); break;
@@ -177,6 +177,8 @@ function obtenerInvitado()
         case '113': nombre.html('Tía Javi Oliva'); personas.html('Personal'); break;
         case '114': nombre.html('Sr. Martín Carbajal y Fam.'); personas.html('4 Personas'); break;
         case '115': nombre.html('Cecilia F. Oliva Frias'); personas.html('2 Personas'); break;
+        case '116': nombre.html('Fam. Pérez Madrigal'); personas.html('3 Personas'); break;
+        case '117': nombre.html('Alejandro Valencia'); personas.html('Personal'); break;
         default:
             $('#datos-invitado').hide();
             break;
